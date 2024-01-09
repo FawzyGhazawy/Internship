@@ -1,0 +1,64 @@
+<html>
+<head>
+<script>
+function dotable()
+{
+  var x1=document.getElementById("texb1").value
+  var y1=document.getElementById("texb2").value
+  document.getElementById("mytable").style.visibility=("");
+  for (var i=0;i<x1;i++)
+  {
+  var r=document.getElementById("mytable").insertRow();
+      r.innerText="yes";
+      for(var j=0;j<y1;j++)
+       {
+      var c=r.insertCell();
+      c.innerHTML="generated cell";
+      //alert(j);
+      c.id="theId"+i+j+"";
+       }
+
+	}
+
+
+ }
+
+function doreset()
+{
+document.getElementById("texb1").value=" "
+document.getElementById("texb2").value=" "
+alert("before : \n"+document.getElementById("myDiv").innerHTML)
+document.getElementById("myDiv").innerHTML = "<table name=\"tablec\" id=\"mytable\" border=\"1\" style='visibility:hidden'>";
+alert("after : \n"+document.getElementById("myDiv").innerHTML)
+}
+
+
+</script>
+</head >
+
+<body>
+TEST
+<br>
+plz enter the number of rows
+<input type="text" id="texb1">
+<br>
+plz enter the number of cells
+<input type="text" id="texb2">
+<br>
+<input type="button" id="butconf" value="creat table" onclick="dotable()">
+<input type="button" id="butres" value="Reset All" onclick="doreset()">
+<div id='myDiv'>
+<table name="tablec" id="mytable" border="1" style="visibility:hidden">
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

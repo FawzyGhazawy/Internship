@@ -1,0 +1,82 @@
+<head>
+    <title>Exercise 5</title>
+</head>
+
+<body>
+    <label>Choose the city:</label>
+    <select id="city" style="margin-left: 35px;">
+        <option value="" disabled selected>Choose a city</option>
+        <option value="Beirut">Beirut</option>
+        <option value="North">North Lebanon</option>
+    </select>
+    <button id="btn" onclick="ShowHotels()">Show hotels</button>
+    <br><br>
+    <div id="table1" style="display: none;">
+        <table id="beirut" border="1">
+            <th>Select</th>
+            <th>Name</th>
+            <th>Price/Day</th>
+            <th>Number of days</th>
+            <tr>
+                <td><input type="radio" name="table1" id="phoenicia"></td>
+                <td>Phoenicia</td>
+                <td>230</td>
+                <td><input type="number" maxlength="10000"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="table1" id="movenpick"></td>
+                <td>Movenpick</td>
+                <td>212</td>
+                <td><input type="number" maxlength="10000"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="table1" id="monroe"></td>
+                <td>Monroe</td>
+                <td>200</td>
+                <td><input type="number" maxlength="10000"></td>
+            </tr>
+        </table>
+        <br><br>
+        <button id="btnT1">Reserve</button>
+        <br><br>
+    </div>
+    
+    <div id="table2" style="display: none;">
+        <table id="NorthL" border="1">
+            <th>Select</th>
+            <th>Name</th>
+            <th>Price/Day</th>
+            <th>Number of days</th>
+            <tr>
+                <td><input type="radio" name="table2" id="Sbernard"></td>
+                <td>B Saint Bernard</td>
+                <td>130</td>
+                <td><input type="number" maxlength="10000"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="table2" id="chbat"></td>
+                <td>A Chbat</td>
+                <td>122</td>
+                <td><input type="number" maxlength="10000"></td>
+            </tr>
+        </table>
+        <br><br>
+        <button id="btnT2">Reserve</button>
+    </div>
+    <script>
+        function ShowHotels() {
+            var hotel = document.getElementById("city").value;
+            var div1 = document.getElementById("table1");
+            var div2 = document.getElementById("table2");
+            if (hotel == "Beirut") {
+                div1.style.display = "block";
+                div2.style.display = "none";
+            }
+            else {
+                div1.style.display = "none";
+                div2.style.display = "block";
+            }
+        }
+
+    </script>
+</body>

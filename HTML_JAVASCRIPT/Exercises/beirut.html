@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beirut Hotels</title> 
+    <style>
+        .selected-row {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table id="beirut" border="1">
+        <th>Select</th>
+        <th>Name</th>
+        <th>Price/Day</th>
+        <th>Number of days</th>
+        <tr>
+            <td><input type="radio" name="table1" id="phoenicia"></td>
+            <td>Phoenicia</td>
+            <td>230</td>
+            <td><input type="number" id="1" min="1" maxlength="10000"></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="table1" id="movenpick"></td>
+            <td>Movenpick</td>
+            <td>212</td>
+            <td><input type="number" id="2" min="1" maxlength="10000"></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="table1" id="monroe"></td>
+            <td>Monroe</td>
+            <td>200</td>
+            <td><input type="number" id="3" min="1" maxlength="10000"></td>
+        </tr>
+    </table>
+    <br>
+    <button id="btnT1" onclick="reserve()">Reserve</button>
+    
+    <script>
+        
+        function reserve() {
+        var radioButtons = document.getElementsByName("table1");
+
+        for (var i = 0; i < radioButtons.length; i++) {
+            if (radioButtons[i].checked) {
+                var selectedHotel = radioButtons[i].id; // ID of the selected radio button
+                // Perform actions with the selected hotel
+                console.log("Selected Beirut hotel:", selectedHotel);
+                break; // Exit the loop once a selection is found
+            }
+        }
+        if (selectedHotel == "phoenicia") {
+            var days = document.getElementById("1").value;
+            var total = days * 230;
+        }
+        else if (selectedHotel == "movenpick") {
+            var days = document.getElementById("2").value;
+            var total = days * 212;
+        }
+        else {
+            var days = document.getElementById("3").value;
+            var total = days * 200;
+        }
+                    
+                    // Set window.returnValue with the total value
+                    window.opener.postMessage({ name: selectedHotel, total: total }, '*');
+                    window.close();
+                
+        }
+        var radioButtons = document.querySelectorAll('input[type="radio"]');
+        radioButtons.forEach(function(radio) {
+            radio.addEventListener('click', function() {
+                // Get the parent row
+                var row = this.closest('tr');
+                
+                // Remove the red background from all rows
+                document.querySelectorAll('.selected-row').forEach(function(el) {
+                    el.classList.remove('selected-row');
+                });
+                
+                // Add red background to the clicked row
+                row.classList.add('selected-row');
+            });
+        });
+    </script>
+   
+</body>
+
+</html>

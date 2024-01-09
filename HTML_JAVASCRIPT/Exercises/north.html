@@ -1,0 +1,65 @@
+
+<table id="NorthL" border="1">
+    <th>Select</th>
+    <th>Name</th>
+    <th>Price/Day</th>
+    <th>Number of days</th>
+    <tr>
+        <td><input type="radio" name="table2" id="Sbernard"></td>
+        <td>B Saint Bernard</td>
+        <td>130</td>
+        <td><input type="number" maxlength="10000"min="1" id="1"></td>
+    </tr>
+    <tr>
+        <td><input type="radio" name="table2" id="chbat" ></td>
+        <td>A Chbat</td>
+        <td>122</td>
+        <td><input type="number" maxlength="10000" min="1" id="2"></td>
+    </tr>
+</table>
+<br><br>
+<button id="btnT2" onclick="reserve()">Reserve</button>
+
+<script>
+    function reserve() {
+        var radioButtons = document.getElementsByName("table2");
+
+        for (var i = 0; i < radioButtons.length; i++) {
+            if (radioButtons[i].checked) {
+                var selectedHotel = radioButtons[i].id; // ID of the selected radio button
+                // Perform actions with the selected hotel
+                console.log("Selected North hotel:", selectedHotel);
+                break; // Exit the loop once a selection is found
+            }
+        }
+        if (selectedHotel == "Sbernard") {
+            var days = document.getElementById("1").value;
+            var total = days * 130;
+        }
+        else {
+            var days = document.getElementById("2").value;
+            var total = days * 122;
+        }
+        
+                    
+                    // Set window.returnValue with the total value
+                    window.opener.postMessage({ name: selectedHotel, total: total }, '*');
+                    window.close();
+                
+        }
+        var radioButtons = document.querySelectorAll('input[type="radio"]');
+        radioButtons.forEach(function(radio) {
+            radio.addEventListener('click', function() {
+                // Get the parent row
+                var row = this.closest('tr');
+                
+                // Remove the red background from all rows
+                document.querySelectorAll('.selected-row').forEach(function(el) {
+                    el.classList.remove('selected-row');
+                });
+                
+                // Add red background to the clicked row
+                row.classList.add('selected-row');
+            });
+        });
+</script>

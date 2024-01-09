@@ -1,0 +1,35 @@
+<head>
+    <title>Exercise 5</title>
+</head>
+
+<body>
+    <label>Choose the city:</label>
+    <select id="city" style="margin-left: 35px;">
+        <option value="" disabled selected>Choose a city</option>
+        <option value="Beirut">Beirut</option>
+        <option value="North">North Lebanon</option>
+    </select>
+    <button id="btn" onclick="ShowHotels()">Show hotels</button>
+    <div id="info"></div>
+    <script>
+        function ShowHotels() {
+            var hotel = document.getElementById("city").value;
+            var url;
+            if (hotel == "Beirut") {
+                url = "beirut.html"; 
+            } else {
+                url = "north.html"; 
+            }
+            // var dialogArguments = {}; 
+            var childWindow = window.open(url, 'childWindow', 'status:no;dialogHeight:400px;dialogWidth:700px;center:yes;resizable:no;');
+
+    // On closing the child window, check for received messages
+    window.addEventListener('message', function(event) {
+        var returnValue = event.data;
+        if (returnValue) {
+            var infoDiv = document.getElementById("info");
+            infoDiv.innerHTML = `Name of the hotel: ${returnValue.name}<br>Total Amount: ${returnValue.total} $`;
+        }});
+        }
+    </script>
+</body>
