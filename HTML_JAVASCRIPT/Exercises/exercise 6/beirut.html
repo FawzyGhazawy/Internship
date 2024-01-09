@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beirut Hotels</title>
+    <style>
+        .selected-row {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table id="beirut" border="1">
+        <th>Select</th>
+        <th>Name</th>
+        <th>Price/Day</th>
+        <th>Number of days</th>
+        <tr>
+            <td><input type="checkbox" name="table1" id="phoenicia"></td>
+            <td>Phoenicia</td>
+            <td>230</td>
+            <td><input type="number" id="1" min="1" maxlength="10000"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="table1" id="movenpick"></td>
+            <td>Movenpick</td>
+            <td>212</td>
+            <td><input type="number" id="2" min="1" maxlength="10000"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="table1" id="monroe"></td>
+            <td>Monroe</td>
+            <td>200</td>
+            <td><input type="number" id="3" min="1" maxlength="10000"></td>
+        </tr>
+    </table>
+    <br>
+    <button id="btnT1" onclick="reserve()">Reserve</button>
+
+    <script>
+
+        function reserve() {
+            var checkboxes = document.getElementsByName("table1");
+            var selectedHotels = [];
+            var days = 0;
+            var total = 0;
+            for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    selectedHotels.push(checkboxes[i].id);
+                }
+            }
+
+            if(document.getElementById("phoenicia").checked){
+                days= 0;
+                days+= document.getElementById("1").value;
+                total += 230 * days;
+            }
+          if(document.getElementById("movenpick").checked){
+            days = 0;
+                days+= document.getElementById("2").value;
+                total += 212 * days;
+            }
+            if(document.getElementById("monroe").checked){
+                days = 0;
+                days+= document.getElementById("3").value;
+                total += 200 * days;
+            }
+
+            if (total > 0) {
+                // Set window.returnValue with the total value
+                window.opener.postMessage({
+                    selectedHotels: selectedHotels,
+                    total: total
+                }, '*');
+                window.close();
+            } else {
+                alert("Please enter valid number of days for selected hotels.");
+            }
+        }
+        // Get all checkboxes by their class
+        // Function to change row color based on checkbox state
+        function changeRowColor() {
+            var checkboxes = document.getElementsByName("table1");
+            for (var i = 0; i < checkboxes.length; i++) {
+                var row = checkboxes[i].parentNode.parentNode;
+                if (checkboxes[i].checked) {
+                    row.classList.add("selected-row");
+                } else {
+                    row.classList.remove("selected-row");
+                }
+            }
+        }
+
+        // Add change event listener to checkboxes
+        var checkboxes = document.getElementsByName("table1");
+        for (var i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].addEventListener('change', changeRowColor);
+        }
+
+    </script>
+
+</body>
+
+</html>

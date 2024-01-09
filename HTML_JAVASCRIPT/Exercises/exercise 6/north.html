@@ -1,0 +1,81 @@
+<style>
+    .selected-row {
+        background-color: red;
+    }
+</style>
+<table id="NorthL" border="1">
+    <th>Select</th>
+    <th>Name</th>
+    <th>Price/Day</th>
+    <th>Number of days</th>
+    <tr>
+        <td><input type="checkbox" name="table2" id="Sbernard"></td>
+        <td>B Saint Bernard</td>
+        <td>130</td>
+        <td><input type="number" maxlength="10000"min="1" id="1"></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="table2" id="chbat" ></td>
+        <td>A Chbat</td>
+        <td>122</td>
+        <td><input type="number" maxlength="10000" min="1" id="2"></td>
+    </tr>
+</table>
+<br><br>
+<button id="btnT2" onclick="reserve()">Reserve</button>
+
+<script>
+    function reserve() {
+            var checkboxes = document.getElementsByName("table2");
+            var selectedHotels = [];
+            var days = 0;
+            var total = 0;
+            for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    selectedHotels.push(checkboxes[i].id);
+                }
+            }
+
+            if(document.getElementById("Sbernard").checked){
+                days= 0;
+                days+= document.getElementById("1").value;
+                total += 130 * days;
+            }
+          if(document.getElementById("chbat").checked){
+            days = 0;
+                days+= document.getElementById("2").value;
+                total += 122 * days;
+            }
+
+            if (total > 0) {
+                // Set window.returnValue with the total value
+                window.opener.postMessage({
+                    selectedHotels: selectedHotels,
+                    total: total
+                }, '*');
+                window.close();
+            } else {
+                alert("Please enter valid number of days for selected hotels.");
+            }
+        }
+        // Function to change row color based on checkbox state
+        function changeRowColor() {
+            var checkboxes = document.getElementsByName("table2");
+            for (var i = 0; i < checkboxes.length; i++) {
+                var row = checkboxes[i].parentNode.parentNode;
+                if (checkboxes[i].checked) {
+                    row.classList.add("selected-row");
+                } else {
+                    row.classList.remove("selected-row");
+                }
+            }
+        }
+
+        // Add change event listener to checkboxes
+        var checkboxes = document.getElementsByName("table2");
+        for (var i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].addEventListener('change', changeRowColor);
+        }
+        
+
+</script>
