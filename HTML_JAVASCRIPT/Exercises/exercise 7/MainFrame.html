@@ -1,0 +1,35 @@
+<head>
+    <title>Exercise 7</title>
+</head>
+
+<body>
+    <label for="category">Category</label>
+    <select style="margin-left: 25px;" onchange="ShowCategory()">
+        <option value="" disabled selected>Select category</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+    </select>
+
+    <script>
+        function ShowCategory() {
+            var category = document.getElementById("category").value;
+            var passingBool = new Object();
+            if (category == "Men") {
+                passingBool.bool = true; 
+            } else {
+                passingBool.bool = false; 
+            }
+
+            // var dialogArguments = {}; 
+            var childWindow = window.open("LstClothes.html", passingBool, 'status:no;dialogHeight:400px;dialogWidth:700px;center:yes;resizable:no;');
+
+    // On closing the child window, check for received messages
+    // window.addEventListener('message', function(event) {
+    //     var returnValue = event.data;
+    //     if (returnValue) {
+    //         var infoDiv = document.getElementById("info");
+    //         infoDiv.innerHTML = `Name of the category: ${returnValue.selectedcategorys}<br>Total Amount: ${returnValue.total} $`;
+    //     }});
+         }
+    </script>
+</body>

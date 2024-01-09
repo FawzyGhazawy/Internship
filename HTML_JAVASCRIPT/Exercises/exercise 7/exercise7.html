@@ -1,0 +1,138 @@
+<head>
+    <title>Exercise 7</title>
+</head>
+
+<body>
+    <label for="category">Category</label>
+    <select style="margin-left: 25px;" id="category" onchange="ShowCategory()">
+        <option value="" disabled selected>Select category</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+    </select>
+    <br><br>
+    <div id="T1" style="display: none;">
+        <table border="1">
+            <th>Item id</th>
+            <th>Item name</th>
+            <th>Price</th>
+            <tr id="row1">
+                <td>1</td>
+                <td>Pants polo </td>
+                <td>25$</td>
+            </tr>
+            <tr id="row2">
+                <td>2</td>
+                <td>T-shirt Ralph Lauren </td>
+                <td>35.6$</td>
+            </tr>
+            <tr id="row3">
+                <td>3</td>
+                <td>Dress </td>
+                <td>14.5$</td>
+            </tr>
+            <tr id="row4">
+                <td>4</td>
+                <td>Mini skirt </td>
+                <td>90$</td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+    <div id="T2" style="display: none;">
+        <table border="1">
+            <th>Item id</th>
+            <th>Item name</th>
+            <th>Price</th>
+            <tr id="row10">
+                <td>10</td>
+                <td>Pants </td>
+                <td>50$</td>
+            </tr>
+            <tr id="row20">
+                <td>20</td>
+                <td>T-shirt </td>
+                <td>30.6$</td>
+            </tr>
+            <tr id="row30">
+                <td>30</td>
+                <td>Jacket </td>
+                <td>100.5$</td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+
+    <div id="infos" style="display: none;">
+        <label for="">Item ID:</label>
+        <label id="itemLabel" style="margin-left: 25px;"></label>
+        <br><br>
+        <label>Item name:</label>
+        <label for="" id="nameLabel" style="margin-left: 25px;"></label>
+        <br><br>
+        <label>Price:</label>
+        <label id="priceLabel" style="margin-left: 25px;"></label>
+        <br><br>
+        <label>Quantity:</label>
+        <input type="number" id="quantity" maxlength="1000" min="1">
+        <button id="buy" >OK</button>
+        <button id="cancel"></button>
+    </div>
+    <script>
+        function ShowCategory() {
+            var check = document.getElementById("category").value;
+            if (check == "women") {
+                document.getElementById("T1").style.display = "block";
+                document.getElementById("T2").style.display = "none";
+                bool = true;
+            }
+            else {
+                document.getElementById("T2").style.display = "block";
+                document.getElementById("T1").style.display = "none";
+                bool = false;
+            }
+            clickable();
+        }
+
+        function clickable() {
+            
+        var rows = bool ? document.querySelectorAll("#T1 tr") : document.querySelectorAll("#T2 tr");
+
+        rows.forEach(function (row) {
+            row.addEventListener("click", function () {
+                var rowId = this.id; // Get the ID of the clicked row
+                console.log("Clicked row ID:", rowId);
+                document.getElementById("infos").style.display = "block";
+                switch (rowId) {
+                    case "row1":
+                        itemDetails = { itemId: 1, itemName: "Pants polo", price: "25$" };
+                        break;
+                    case "row2":
+                        itemDetails = { itemId: 2, itemName: "T-shirt Ralph Lauren", price: "35.6$" };
+                        break;
+                    case "row3":
+                        itemDetails = { itemId: 3, itemName: "Dress", price: "14.5$" };
+                        break;
+                    case "row4":
+                        itemDetails = { itemId: 4, itemName: "Mini skirt", price: "90$" };
+                        break;
+                    case "row10":
+                        itemDetails = { itemId: 10, itemName: "Pants", price: "50$" };
+                        break;
+                    case "row20":
+                        itemDetails = { itemId: 20, itemName: "T-shirt", price: "30.6$" };
+                        break;
+                    case "row30":
+                        itemDetails = { itemId: 30, itemName: "Jacket", price: "100.5$" };
+                        break;
+                    default:
+                        break;
+                }
+
+                document.getElementById("itemLabel").textContent = itemDetails.itemId;
+                document.getElementById("nameLabel").textContent = itemDetails.itemName;
+                document.getElementById("priceLabel").textContent = itemDetails.price;
+            });
+        });
+    }
+    </script>
+</body>
