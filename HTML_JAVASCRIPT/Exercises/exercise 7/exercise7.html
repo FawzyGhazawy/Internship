@@ -1,5 +1,40 @@
 <head>
     <title>Exercise 7</title>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -74,8 +109,16 @@
         <br><br>
         <label>Quantity:</label>
         <input type="number" id="quantity" maxlength="1000" min="1">
-        <button id="buy" >OK</button>
-        <button id="cancel"></button>
+        <button id="buy" onclick="test()">OK</button>
+        <button id="cancel" onclick="cancelConfirmation()">Cancel</button>
+    </div>
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="message"></p>
+            <button onclick="confirmPurchase()">Confirm</button>
+            <button onclick="closeModal() , cancelConfirmation()">Cancel</button>
+        </div>
     </div>
     <script>
         function ShowCategory() {
@@ -94,45 +137,93 @@
         }
 
         function clickable() {
-            
-        var rows = bool ? document.querySelectorAll("#T1 tr") : document.querySelectorAll("#T2 tr");
 
-        rows.forEach(function (row) {
-            row.addEventListener("click", function () {
-                var rowId = this.id; // Get the ID of the clicked row
-                console.log("Clicked row ID:", rowId);
-                document.getElementById("infos").style.display = "block";
-                switch (rowId) {
-                    case "row1":
-                        itemDetails = { itemId: 1, itemName: "Pants polo", price: "25$" };
-                        break;
-                    case "row2":
-                        itemDetails = { itemId: 2, itemName: "T-shirt Ralph Lauren", price: "35.6$" };
-                        break;
-                    case "row3":
-                        itemDetails = { itemId: 3, itemName: "Dress", price: "14.5$" };
-                        break;
-                    case "row4":
-                        itemDetails = { itemId: 4, itemName: "Mini skirt", price: "90$" };
-                        break;
-                    case "row10":
-                        itemDetails = { itemId: 10, itemName: "Pants", price: "50$" };
-                        break;
-                    case "row20":
-                        itemDetails = { itemId: 20, itemName: "T-shirt", price: "30.6$" };
-                        break;
-                    case "row30":
-                        itemDetails = { itemId: 30, itemName: "Jacket", price: "100.5$" };
-                        break;
-                    default:
-                        break;
-                }
+            var rows = bool ? document.querySelectorAll("#T1 tr") : document.querySelectorAll("#T2 tr");
 
-                document.getElementById("itemLabel").textContent = itemDetails.itemId;
-                document.getElementById("nameLabel").textContent = itemDetails.itemName;
-                document.getElementById("priceLabel").textContent = itemDetails.price;
+            rows.forEach(function (row) {
+                row.addEventListener("click", function () {
+                    var rowId = this.id; // Get the ID of the clicked row
+                    console.log("Clicked row ID:", rowId);
+                    document.getElementById("infos").style.display = "block";
+                    switch (rowId) {
+                        case "row1":
+                            itemDetails = { itemId: 1, itemName: "Pants polo", price: "25$" };
+                            break;
+                        case "row2":
+                            itemDetails = { itemId: 2, itemName: "T-shirt Ralph Lauren", price: "35.6$" };
+                            break;
+                        case "row3":
+                            itemDetails = { itemId: 3, itemName: "Dress", price: "14.5$" };
+                            break;
+                        case "row4":
+                            itemDetails = { itemId: 4, itemName: "Mini skirt", price: "90$" };
+                            break;
+                        case "row10":
+                            itemDetails = { itemId: 10, itemName: "Pants", price: "50$" };
+                            break;
+                        case "row20":
+                            itemDetails = { itemId: 20, itemName: "T-shirt", price: "30.6$" };
+                            break;
+                        case "row30":
+                            itemDetails = { itemId: 30, itemName: "Jacket", price: "100.5$" };
+                            break;
+                        default:
+                            break;
+                    }
+
+                    document.getElementById("itemLabel").textContent = itemDetails.itemId;
+                    document.getElementById("nameLabel").textContent = itemDetails.itemName;
+                    document.getElementById("priceLabel").textContent = itemDetails.price;
+                    document.getElementById("quantity").value = "";
+                    // showMessage(itemDetails.itemId, itemDetails.itemName, itemDetails.price);
+                });
             });
-        });
-    }
+        }
+
+        //  function showMessage(id, name, price){
+        //     showConfirmation(id, name, price);}
+
+        function showConfirmation(id, name, price) {
+            var modal = document.getElementById("confirmationModal");
+            modal.style.display = "block";
+            id = document.getElementById("itemLabel").textContent ;
+            name = document.getElementById("nameLabel").textContent ;
+            price = document.getElementById("priceLabel").textContent ;
+            var quant = document.getElementById("quantity").value;
+            var total = quant * parseFloat(price);
+            var divM = document.getElementById("message");
+            var Message = "Dear customer, You bought " + quant + " "+ name + ".\nThe unit price = " + price + ". \nThe total price is " + total + "$. \nDo you have enough money?"
+            divM.textContent = Message;
+        }
+
+
+
+        // Function to close the modal
+        function closeModal() {
+            var modal = document.getElementById("confirmationModal");
+            modal.style.display = "none";
+        }
+
+        // Function to confirm the purchase
+        function confirmPurchase() {
+            // Add your purchase logic here
+            console.log("Purchase confirmed");
+            closeModal(); // Close the modal after confirming
+        }
+
+        function cancelConfirmation() {
+            document.getElementById("T2").style.display = "none";
+            document.getElementById("T1").style.display = "none";
+            document.getElementById("infos").style.display = "none";
+        }
+        function test(){
+            var quant = document.getElementById("quantity").value;
+            if(quant>0){
+                showConfirmation();
+            }
+            else{
+                alert("You didn't choose a quantity for this product.")
+            }
+        }
     </script>
 </body>
