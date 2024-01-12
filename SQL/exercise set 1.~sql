@@ -1,0 +1,84 @@
+Create table ssdx_tmp.ROOM_Fawzy (
+RId INT Primary key,
+RArea Varchar2(30));
+
+Create table ssdx_tmp.Guest_Fawzy (
+GId INT Primary key,
+GName Varchar2(30),
+GTel Varchar2(30));
+
+Create table ssdx_tmp.Contract_Fawzy (
+CID Int primary key ,
+GID INT, 
+RId INT, 
+CDate Date, 
+CAmount Number(30), 
+Active char(1), 
+FOREIGN KEY (GId) REFERENCES ssdx_tmp.Guest_Fawzy(GId),
+FOREIGN KEY (RId) REFERENCES ssdx_tmp.ROOM_Fawzy(RId));
+
+Create table ssdx_tmp.Payment_Fawzy (
+PId INT Primary key,
+CId Int ,
+PDate Date,
+Foreign key (CId) references ssdx_tmp.Contract_Fawzy(CID));
+
+insert into ssdx_tmp.ROOM_Fawzy (rid, rarea)
+values (6 , 'Beirut');
+
+select * from ssdx_tmp.ROOM_Fawzy;
+
+insert into ssdx_tmp.Guest_Fawzy (GId, GName,GTel)
+values (4 , 'Carlos' , '999');
+
+select * from ssdx_tmp.Guest_Fawzy;
+
+
+insert into ssdx_tmp.Contract_Fawzy (CID, GID, RId, CDate , CAmount, Active)
+values (3 , 3 , 3 ,  TO_DATE('11-01-2023', 'MM-DD-YYYY'), 4000, 'Y');
+
+select * from ssdx_tmp.Contract_Fawzy;
+
+
+insert into ssdx_tmp.Payment_Fawzy (pid, cid, pdate)
+values (2 , 2 , TO_DATE('04-01-2022', 'MM-DD-YYYY'));
+
+select * from ssdx_tmp.Payment_Fawzy;
+
+SELECT rooms.RId
+FROM ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId
+WHERE contract.Active = 'Y' ;
+
+
+SELECT
+    contract.RId,
+    contract.CId,
+    contract.GId,
+    contract.CDate,
+    contract.CAmount,
+    CASE
+        WHEN contract.Active = 'N' THEN 'Inactive'
+        WHEN contract.Active = 'Y' THEN 'Active'
+        ELSE 'Unknown' 
+    END AS contract_status
+FROM
+    ssdx_tmp.Contract_Fawzy contract;
+
+
+SELECT rooms.RId, 
+FROM ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId
+WHERE contract.Active = 'Y' ;
+
+
+SELECT
+    rooms.RId,
+    contract.CId,
+    contract.CAmount
+FROM
+    ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN
+    ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId AND (contract.Active = 'Y' OR contract.Active = 'N')
+
+

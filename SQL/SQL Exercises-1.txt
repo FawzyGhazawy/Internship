@@ -1,0 +1,147 @@
+Exercise 1: 
+
+1 - 1 Select Eid , ENAME 
+from ssdx_tmp.Employee_Fawzy;
+
+1-2 Select *
+from ssdx_tmp.Department_Fawzy;
+
+1-3 SELECT ssdx_tmp.Employee_Fawzy.ename , ssdx_tmp.Department_Fawzy.dname
+FROM ssdx_tmp.Employee_Fawzy, ssdx_tmp.Department_Fawzy
+Where ssdx_tmp.Employee_Fawzy.did (+) = ssdx_tmp.Department_Fawzy.did; 
+
+
+1-4  Select Ename , salary
+from ssdx_tmp.Employee_Fawzy;
+
+1-5 SELECT
+    Eid,
+    EName,
+    Did,
+    salary,
+    ROW_NUMBER() OVER (PARTITION BY Did ORDER BY salary) AS salary_seq_Dep
+FROM
+    ssdx_tmp.Employee_Fawzy;
+
+
+
+Exercise 2:
+
+
+Create table ssdx_tmp.table1_Fawzy ( 
+Id number(10) ,
+name varchar2(30));
+
+Create table ssdx_tmp.table2_Fawzy ( 
+Id number(10) ,
+name varchar2(30));
+
+
+
+UPDATE ssdx_tmp.table2_Fawzy
+SET name = (SELECT name FROM ssdx_tmp.table1_Fawzy WHERE ID = table2_Fawzy.ID)
+WHERE table2_Fawzy.ID IS NOT NULL;
+
+
+Exercise 3:
+
+
+Create table ssdx_tmp.EMPLOYEES_Fawzy (
+emp_id INT Primary key,
+emp_name varchar2(30),
+Department_id INT,
+Department_name varchar2(30));
+
+
+
+insert into ssdx_tmp.EMPLOYEES_Fawzy (emp_id, emp_name, department_id, department_name)
+values (1, 'John',12,  'Accounting');
+
+DELETE FROM ssdx_tmp.EMPLOYEES_Fawzy
+WHERE (emp_id, ROWID) NOT IN (
+    SELECT emp_id, ROWID
+    FROM (
+        SELECT emp_id, ROW_NUMBER() OVER (PARTITION BY emp_id ORDER BY emp_id DESC) AS rn, ROWID
+        FROM ssdx_tmp.EMPLOYEES_Fawzy
+    )
+    WHERE rn = 1
+);
+
+
+Exercise 4:
+
+Create table ssdx_tmp.ROOM_Fawzy (
+RId INT Primary key,
+RArea Varchar2(30));
+
+
+
+Create table ssdx_tmp.Guest_Fawzy (
+GId INT Primary key,
+GName Varchar2(30),
+GTel Varchar2(30));
+
+Create table ssdx_tmp.Contract_Fawzy (
+CID Int primary key ,
+GID INT, 
+RId INT, 
+CDate Date, 
+CAmount Number(30), 
+Active char(1), 
+FOREIGN KEY (GId) REFERENCES ssdx_tmp.Guest_Fawzy(GId),
+FOREIGN KEY (RId) REFERENCES ssdx_tmp.ROOM_Fawzy(RId));
+
+Create table ssdx_tmp.Payment_Fawzy (
+PId INT Primary key,
+CId Int ,
+PDate Date,
+Foreign key (CId) references ssdx_tmp.Contract_Fawzy(CID));
+
+
+1- SELECT rooms.RId
+FROM ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId
+WHERE contract.Active = 'N' OR contract.RId IS NULL;
+
+2-SELECT rooms.RId
+FROM ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId
+WHERE contract.Active = 'Y' ;
+
+
+3-SELECT
+    contract.RId,
+    contract.CId,
+    contract.GId,
+    contract.CDate,
+    contract.CAmount,
+    CASE
+        WHEN contract.Active = 'N' THEN 'Inactive'
+        WHEN contract.Active = 'Y' THEN 'Active'
+        ELSE 'Unknown' 
+    END AS contract_status
+FROM
+    ssdx_tmp.Contract_Fawzy contract;
+
+4-SELECT
+    rooms.RId,
+    contract.CId,
+    contract.CAmount
+FROM
+    ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN
+    ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId
+WHERE
+    contract.Active = 'Y' ;
+
+
+5-SELECT
+    rooms.RId,
+    contract.CId,
+    contract.CAmount
+FROM
+    ssdx_tmp.ROOM_Fawzy rooms
+LEFT JOIN
+    ssdx_tmp.Contract_Fawzy contract ON rooms.RId = contract.RId AND (contract.Active = 'Y' OR contract.Active = 'N')
+
+
