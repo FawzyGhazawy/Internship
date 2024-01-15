@@ -1,0 +1,627 @@
+Oct 23, 2023 8:22:52 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 8:22:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 8:22:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 8:22:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 429 ms
+Oct 23, 2023 8:22:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 8:22:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 8:22:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 8:22:53 AM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 8:22:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 8:22:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 8:22:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 8:22:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1245 ms
+Oct 23, 2023 10:17:05 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 10:17:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:17:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 10:17:05 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Oct 23, 2023 10:17:05 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 10:17:05 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 10:17:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 10:17:06 AM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 10:17:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 10:17:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:17:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 10:17:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1290 ms
+Oct 23, 2023 10:59:42 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 10:59:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:59:42 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Oct 23, 2023 10:59:42 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Oct 23, 2023 10:59:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 10:59:42 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Oct 23, 2023 10:59:42 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Oct 23, 2023 10:59:42 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 447 ms
+Oct 23, 2023 10:59:42 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 10:59:42 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 10:59:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 10:59:43 AM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 10:59:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 10:59:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1315 ms
+Oct 23, 2023 10:59:44 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 10:59:44 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 10:59:44 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 2:52:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 2:52:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 2:52:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 2:52:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 405 ms
+Oct 23, 2023 2:52:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 2:52:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 2:52:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 2:52:24 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 2:52:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 2:52:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 2:52:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 2:52:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1263 ms
+Oct 23, 2023 2:54:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 2:54:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 2:54:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 2:54:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 476 ms
+Oct 23, 2023 2:54:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 2:54:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 2:54:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 2:54:32 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 2:54:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 2:54:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 2:54:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 2:54:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1390 ms
+Oct 23, 2023 3:22:18 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:22:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:22:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:22:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 486 ms
+Oct 23, 2023 3:22:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:22:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:22:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:22:19 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:22:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:22:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:22:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:22:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1290 ms
+Oct 23, 2023 3:36:54 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:36:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:36:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:36:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 415 ms
+Oct 23, 2023 3:36:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:36:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:36:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:36:55 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:36:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:36:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:36:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:36:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1209 ms
+Oct 23, 2023 3:40:02 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:40:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:40:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:40:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 402 ms
+Oct 23, 2023 3:40:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:40:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:40:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:40:03 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:40:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:40:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:40:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:40:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1245 ms
+Oct 23, 2023 3:41:51 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:41:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:41:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:41:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 410 ms
+Oct 23, 2023 3:41:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:41:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:41:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:41:52 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:41:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:41:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:41:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:41:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1221 ms
+Oct 23, 2023 3:43:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:43:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:43:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:43:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 416 ms
+Oct 23, 2023 3:43:24 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:43:24 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:43:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:43:25 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:43:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:43:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:43:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:43:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1225 ms
+Oct 23, 2023 3:45:19 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:45:19 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:45:19 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:45:19 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 431 ms
+Oct 23, 2023 3:45:19 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:45:19 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:45:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:45:20 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:45:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:45:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:45:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:45:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1242 ms
+Oct 23, 2023 3:49:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:49:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:49:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:49:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 568 ms
+Oct 23, 2023 3:49:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:49:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:49:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:49:08 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:49:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:49:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:49:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:49:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1318 ms
+Oct 23, 2023 3:55:26 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:55:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:55:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:55:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 428 ms
+Oct 23, 2023 3:55:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:55:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:55:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:55:27 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:55:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:55:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:55:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:55:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1239 ms
+Oct 23, 2023 3:57:20 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:57:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:57:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:57:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 404 ms
+Oct 23, 2023 3:57:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:57:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:57:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:57:21 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:57:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:57:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:57:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:57:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1232 ms
+Oct 23, 2023 3:58:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:58:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:58:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:58:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 403 ms
+Oct 23, 2023 3:58:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:58:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:58:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:58:50 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:58:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:58:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:58:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:58:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1267 ms
+Oct 23, 2023 3:59:55 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 3:59:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:59:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:59:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 405 ms
+Oct 23, 2023 3:59:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 3:59:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 3:59:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 3:59:56 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 3:59:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 3:59:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 3:59:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 3:59:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1202 ms
+Oct 23, 2023 4:14:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 4:14:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:14:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:14:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 418 ms
+Oct 23, 2023 4:14:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 4:14:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 4:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 4:14:51 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 4:14:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 4:14:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:14:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:14:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1220 ms
+Oct 23, 2023 4:30:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 4:30:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:30:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:30:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 420 ms
+Oct 23, 2023 4:30:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 4:30:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 4:30:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 4:30:46 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 4:30:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 4:30:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:30:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:30:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1208 ms
+Oct 23, 2023 4:32:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;E:\app32\product\12.2.0\client_1\bin;C:\Python310\Scripts\;C:\Python310\;E:\app12c\product\12.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\maven\apache-maven-3.9.3\bin;C:\Users\jad.j\AppData\Local\Microsoft\WindowsApps;C:\Users\jad.j\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jad.j\AppData\Local\GitHubDesktop\bin;C:\Users\jad.j\AppData\Roaming\npm;;.
+Oct 23, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:32:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 429 ms
+Oct 23, 2023 4:32:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 23, 2023 4:32:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Oct 23, 2023 4:32:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\ROOT
+Oct 23, 2023 4:32:04 PM org.apache.struts.action.ActionServlet initChain
+INFO: Loading chain catalog from jar:file:/C:/Users/jad.j/Desktop/trainning/JSP/tomcat/webapps/ROOT/WEB-INF/lib/struts-core-1.3.10.jar!/org/apache/struts/chain/chain-config.xml
+Oct 23, 2023 4:32:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\jad.j\Desktop\trainning\JSP\tomcat\webapps\test
+Oct 23, 2023 4:32:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 23, 2023 4:32:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 23, 2023 4:32:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1296 ms

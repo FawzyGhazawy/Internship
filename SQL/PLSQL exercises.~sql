@@ -1,23 +1,13 @@
-CREATE OR REPLACE FUNCTION countAInWord(p_word IN VARCHAR2) RETURN NUMBER IS
-    v_count NUMBER := 0;
+CREATE OR REPLACE PROCEDURE ConvertIPToNumber(p_ip_address IN VARCHAR2, p_result OUT NUMBER) IS
 BEGIN
-    FOR i IN 1..LENGTH(p_word) LOOP
-        IF UPPER(SUBSTR(p_word, i, 1)) = 'A' THEN
-            v_count := v_count + 1;
-        END IF;
-    END LOOP;
-
-    IF v_count = 0 THEN
-        RETURN 'No A is found in that word';
-    ELSE
-        RETURN v_count;
-    END IF;
-END countAInWord;
+    
+    p_result := TO_NUMBER(REPLACE(p_ip_address, '.', ''));
+END ConvertIPToNumber;
 /
 DECLARE
     v_result NUMBER;
 BEGIN
-    v_result := countAInWord('example');
-    DBMS_OUTPUT.PUT_LINE(v_result);
+    ConvertIPToNumber('10.1.255.34', v_result);
+    DBMS_OUTPUT.PUT_LINE('Converted IP to number: ' || v_result);
 END;
 /
