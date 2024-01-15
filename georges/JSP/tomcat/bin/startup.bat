@@ -22,7 +22,7 @@ rem $Id: startup.bat 895392 2010-01-03 14:02:31Z kkolinko $
 rem ---------------------------------------------------------------------------
 
 rem Guess CATALINA_HOME if not defined
-set JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_121
+set JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0_11
 rem C:\Program Files\Java\jdk1.7.0_79
 
 set "CURRENT_DIR=%cd%"

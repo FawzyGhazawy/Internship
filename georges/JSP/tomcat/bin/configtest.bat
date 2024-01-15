@@ -16,15 +16,12 @@ rem limitations under the License.
 
 if "%OS%" == "Windows_NT" setlocal
 rem ---------------------------------------------------------------------------
-rem Start script for the CATALINA Server
+rem Configuration test script for the CATALINA Server
 rem
-rem $Id: startup.bat 895392 2010-01-03 14:02:31Z kkolinko $
+rem $Id: configtest.bat 1137560 2011-06-20 09:27:44Z rjung $
 rem ---------------------------------------------------------------------------
 
 rem Guess CATALINA_HOME if not defined
-set JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_121
-rem C:\Program Files\Java\jdk1.7.0_79
-
 set "CURRENT_DIR=%cd%"
 if not "%CATALINA_HOME%" == "" goto gotHome
 set "CATALINA_HOME=%CURRENT_DIR%"
@@ -57,6 +54,6 @@ shift
 goto setArgs
 :doneSetArgs
 
-call "%EXECUTABLE%" start %CMD_LINE_ARGS%
+call "%EXECUTABLE%" configtest %CMD_LINE_ARGS%
 
 :end

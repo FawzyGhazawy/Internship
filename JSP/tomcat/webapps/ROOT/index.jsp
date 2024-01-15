@@ -9,8 +9,8 @@
 
 </head>
 <frameset rows="40%,60%">
-	<FRAME name='frame1' SRC="frame1.jsp">
-	<FRAME name='frame2' SRC="frame2.jsp">
+	<FRAME name='frame1' SRC="Exercises\ex02.jsp">
+	<%-- <FRAME name='frame2' SRC="frame2.jsp"> --%>
 </frameset>
 
 </html>

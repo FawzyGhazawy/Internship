@@ -16,30 +16,27 @@ rem limitations under the License.
 
 if "%OS%" == "Windows_NT" setlocal
 rem ---------------------------------------------------------------------------
-rem Start script for the CATALINA Server
+rem Script to digest password using the algorithm specified
 rem
-rem $Id: startup.bat 895392 2010-01-03 14:02:31Z kkolinko $
+rem $Id: digest.bat 1137559 2011-06-20 09:27:30Z rjung $
 rem ---------------------------------------------------------------------------
 
 rem Guess CATALINA_HOME if not defined
-set JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_121
-rem C:\Program Files\Java\jdk1.7.0_79
-
 set "CURRENT_DIR=%cd%"
 if not "%CATALINA_HOME%" == "" goto gotHome
 set "CATALINA_HOME=%CURRENT_DIR%"
-if exist "%CATALINA_HOME%\bin\catalina.bat" goto okHome
+if exist "%CATALINA_HOME%\bin\tool-wrapper.bat" goto okHome
 cd ..
 set "CATALINA_HOME=%cd%"
 cd "%CURRENT_DIR%"
 :gotHome
-if exist "%CATALINA_HOME%\bin\catalina.bat" goto okHome
+if exist "%CATALINA_HOME%\bin\tool-wrapper.bat" goto okHome
 echo The CATALINA_HOME environment variable is not defined correctly
 echo This environment variable is needed to run this program
 goto end
 :okHome
 
-set "EXECUTABLE=%CATALINA_HOME%\bin\catalina.bat"
+set "EXECUTABLE=%CATALINA_HOME%\bin\tool-wrapper.bat"
 
 rem Check that target executable exists
 if exist "%EXECUTABLE%" goto okExec
@@ -57,6 +54,6 @@ shift
 goto setArgs
 :doneSetArgs
 
-call "%EXECUTABLE%" start %CMD_LINE_ARGS%
+call "%EXECUTABLE%" -server org.apache.catalina.realm.RealmBase %CMD_LINE_ARGS%
 
 :end
