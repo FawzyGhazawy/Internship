@@ -1,3 +1,0 @@
-DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-String formattedTime1 = LocalDateTime.now().format(formatter);
-System.out.println("\n\n\n\n ++++++++++++++++++ formattedTime1= "+formattedTime1);

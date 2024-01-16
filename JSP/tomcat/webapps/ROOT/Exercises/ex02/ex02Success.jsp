@@ -18,7 +18,7 @@
 <body>
     <div class="container">
         <% 
-        String myMessage = "Hello World!"; 
+        String myMessage = "Successful login!"; 
         %>
         <p><%= myMessage %></p>
     </div>

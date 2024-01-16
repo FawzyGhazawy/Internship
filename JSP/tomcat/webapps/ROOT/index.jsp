@@ -8,9 +8,7 @@
 <title>Insert title here</title>
 
 </head>
-<frameset rows="40%,60%">
-	<FRAME name='frame1' SRC="Exercises\ex02.jsp">
-	<%-- <FRAME name='frame2' SRC="frame2.jsp"> --%>
-</frameset>
-
+<div id="contentFrame">
+        <iframe src="Exercises/ex06/ex06html.jsp" width="100%" height="600px" frameborder="0"></iframe>
+    </div>
 </html>

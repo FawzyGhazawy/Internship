@@ -1,0 +1,3847 @@
+Jan 15, 2024 11:40:54 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ",", ; expected
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+The method siteName() is undefined for the type websiteAccessing_jsp
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token "counter", delete this token
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ",", ; expected
+6: var counter = 0;
+7: 
+8: private void counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+The method siteName() is undefined for the type websiteAccessing_jsp
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token "counter", delete this token
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:42:08 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ",", ; expected
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+The method print(boolean) in the type JspWriter is not applicable for the arguments ()
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ")" to complete Expression
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete Statement
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "}" to complete Block
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "Finally" to complete TryStatement
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "}" to complete MethodBody
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+siteName cannot be resolved to a type
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method counter() in type websiteAccessing_jsp
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ")", { expected
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: [79] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [81] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [81] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [82] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [82] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [83] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [84] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [84] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [87] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [88] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ",", ; expected
+6: var counter = 0;
+7: 
+8: private void increment counter(){
+9:     counter++,
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+The method print(boolean) in the type JspWriter is not applicable for the arguments ()
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ")" to complete Expression
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete Statement
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "}" to complete Block
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "Finally" to complete TryStatement
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert "}" to complete MethodBody
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+siteName cannot be resolved to a type
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method counter() in type websiteAccessing_jsp
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error on token ")", { expected
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: 13 in the jsp file: /Solutions/websiteAccessing.jsp
+out cannot be resolved
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+13: <%= siteName counter() %></strong>
+14: </body>
+15: </html>
+
+
+An error occurred at line: [79] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [81] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [81] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [82] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [82] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [83] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [84] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [84] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [87] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [88] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\websiteAccessing_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:42:09 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:143)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:43:02 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag] with root cause
+org.apache.jasper.JasperException: /Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseExpression(Parser.java:686)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1435)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:102)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:43:05 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:143)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:43:05 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.Solutions.websiteAccessing_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:143)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:43:11 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag] with root cause
+org.apache.jasper.JasperException: /Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseExpression(Parser.java:686)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1435)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:102)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:43:57 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag] with root cause
+org.apache.jasper.JasperException: /Solutions/websiteAccessing.jsp (line: 16, column: 3) Unterminated &lt;%= tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseExpression(Parser.java:686)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1435)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:102)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:44:33 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 16 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+13: <%= siteName  %>
+14: <br>
+15: page accessed: 
+16: <%= counter%></strong>
+17: </body>
+18: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/websiteAccessing.jsp
+var cannot be resolved to a type
+3: <body> 
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 9 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+6: var counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+12: <p> Website of the day is: </p> <strong> 
+
+
+An error occurred at line: 16 in the jsp file: /Solutions/websiteAccessing.jsp
+counter cannot be resolved to a variable
+13: <%= siteName  %>
+14: <br>
+15: page accessed: 
+16: <%= counter%></strong>
+17: </body>
+18: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:45:00 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Duplicate method increment_counter() in type websiteAccessing_jsp
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment_counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:45:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 7 in the jsp file: /Solutions/websiteAccessing.jsp
+This method requires a body instead of a semicolon
+4: <%! 
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: increment_counter();
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 11:45:24 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Syntax error, insert ";" to complete FieldDeclaration
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+void is an invalid type for the variable increment
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+An error occurred at line: 8 in the jsp file: /Solutions/websiteAccessing.jsp
+Return type for the method is missing
+5: String siteName = "visualBuilder.com";
+6: int counter = 0;
+7: 
+8: private void  increment counter(){
+9:     counter++;
+10: }
+11: %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 1:41:32 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/Example3.jsp
+The method Integer(Object) is undefined for the type Example3_jsp
+3: <title>3rd Example </title>
+4: </head>
+5: <% 
+6: Integer totalVisits = Integer(session.getValue("vistCounter"));
+7: 
+8: if(totalVisits == null){
+9:     totalVisits = new Integer(0);
+
+
+An error occurred at line: 16 in the jsp file: /Solutions/Example3.jsp
+Syntax error, insert ";" to complete Statement
+13: else{
+14:     totalVisits = new Integer(totalVisits.intValue()+1);
+15:     session.putValue("visitCounter",totalVisits);
+16:     out.println("You have visited this page "+totalVisits+"time(s)")
+17: }
+18: %>
+19: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 6 in the jsp file: /Solutions/Example3.jsp
+The method Integer(Object) is undefined for the type Example3_jsp
+3: <title>3rd Example </title>
+4: </head>
+5: <% 
+6: Integer totalVisits = Integer(session.getValue("vistCounter"));
+7: 
+8: if(totalVisits == null){
+9:     totalVisits = new Integer(0);
+
+
+An error occurred at line: 16 in the jsp file: /Solutions/Example3.jsp
+Syntax error, insert ";" to complete Statement
+13: else{
+14:     totalVisits = new Integer(totalVisits.intValue()+1);
+15:     session.putValue("visitCounter",totalVisits);
+16:     out.println("You have visited this page "+totalVisits+"time(s)")
+17: }
+18: %>
+19: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 1:42:42 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 16 in the jsp file: /Solutions/Example3.jsp
+Syntax error, insert ";" to complete Statement
+13: else{
+14:     totalVisits = new Integer(totalVisits.intValue()+1);
+15:     session.putValue("visitCounter",totalVisits);
+16:     out.println("You have visited this page "+totalVisits+"time(s)")
+17: }
+18: %>
+19: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 16 in the jsp file: /Solutions/Example3.jsp
+Syntax error, insert ";" to complete Statement
+13: else{
+14:     totalVisits = new Integer(totalVisits.intValue()+1);
+15:     session.putValue("visitCounter",totalVisits);
+16:     out.println("You have visited this page "+totalVisits+"time(s)")
+17: }
+18: %>
+19: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:17:46 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/Exercise1.jsp (line: 4, column: 16) equal symbol expected] with root cause
+org.apache.jasper.JasperException: /Solutions/Exercise1.jsp (line: 4, column: 16) equal symbol expected
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:89)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:217)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:162)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:183)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:479)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:420)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:190)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:119)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:193)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:18:15 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/Exercise1.jsp (line: 4, column: 16) equal symbol expected] with root cause
+org.apache.jasper.JasperException: /Solutions/Exercise1.jsp (line: 4, column: 16) equal symbol expected
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:89)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:217)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:162)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:183)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:479)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:420)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:190)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:119)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:193)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:21:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 12 in the jsp file: /Solutions/Exercise1.jsp
+The method randn() is undefined for the type Exercise1_jsp
+9: <body>
+10:     <div class="container">
+11:         <!-- Placeholder for the random number -->
+12:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+13:     </div>
+14:     <ul id="list">
+15:     </ul>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 12 in the jsp file: /Solutions/Exercise1.jsp
+The method randn() is undefined for the type Exercise1_jsp
+9: <body>
+10:     <div class="container">
+11:         <!-- Placeholder for the random number -->
+12:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+13:     </div>
+14:     <ul id="list">
+15:     </ul>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:23:51 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete Block
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete MethodBody
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: [106] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [110] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [114] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [115] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete Block
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete MethodBody
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: [106] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [110] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [114] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [115] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:23:56 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete Block
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete MethodBody
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: [106] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [110] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [114] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [115] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete Block
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 1 in the jsp file: /Solutions/Exercise1.jsp
+Syntax error, insert "}" to complete MethodBody
+1: <%@ page import="java.util.Random" %>
+2: <%
+3:     public int randn() {
+4:         Random random = new Random();
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 6 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+3:     public int randn() {
+4:         Random random = new Random();
+5:         return random.nextInt(100) + 1;
+6: %>
+7: <!DOCTYPE html>
+8: <html lang="en">
+9: <head>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: 17 in the jsp file: /Solutions/Exercise1.jsp
+out cannot be resolved
+14: <body>
+15:     <div class="container">
+16:         <!-- Placeholder for the random number -->
+17:         <span id="randomNumberPlaceholder"><%= randn() %></span>
+18:     </div>
+19:     <ul id="list">
+20:     </ul>
+
+
+An error occurred at line: [106] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [108] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [109] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [110] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [111] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [114] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [115] in the generated java file: [D:\Internshhip\JSP\tomcat\work\Catalina\localhost\_\org\apache\jsp\Solutions\Exercise1_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:32:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/Exercise2.jsp (line: 4, column: 46) equal symbol expected] with root cause
+org.apache.jasper.JasperException: /Solutions/Exercise2.jsp (line: 4, column: 46) equal symbol expected
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:89)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:217)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:162)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:183)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:479)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:420)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:190)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:119)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:193)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 2:34:17 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [/Solutions/Exercise2.jsp (line: 4, column: 1) Unterminated &lt;%@ page tag] with root cause
+org.apache.jasper.JasperException: /Solutions/Exercise2.jsp (line: 4, column: 1) Unterminated &lt;%@ page tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:408)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:503)
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1779)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:135)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:242)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:119)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:193)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:373)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 3:13:37 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+message cannot be resolved to a type
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Duplicate local variable out
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Syntax error on token ".", ; expected
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+The method write(String) is undefined for the type ex01_jsp
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+message cannot be resolved to a type
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Duplicate local variable out
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Syntax error on token ".", ; expected
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+The method write(String) is undefined for the type ex01_jsp
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message%></p>
+24:     </div>
+25: 
+26: </body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jan 15, 2024 3:13:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+message cannot be resolved to a type
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Duplicate local variable out
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Syntax error on token ".", ; expected
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+The method write(String) is undefined for the type ex01_jsp
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+message cannot be resolved to a type
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Duplicate local variable out
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+Syntax error on token ".", ; expected
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+An error occurred at line: 23 in the jsp file: /Exercises/ex01.jsp
+The method write(String) is undefined for the type ex01_jsp
+20:     <% 
+21:     String message = "Hello world";
+22:     %>
+23:     <p> <% message %></p>
+24:     </div>
+25: 
+26: </body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

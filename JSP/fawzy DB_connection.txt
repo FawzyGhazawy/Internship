@@ -1,0 +1,20 @@
+<% 
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+
+        try {
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            String host = "10.1.10.243";
+            String dbName = "MTBDEV";
+            int port = 1521;
+            String oracleURL = "jdbc:oracle:thin:@" + host + ":" + port + ":" + dbName;
+            String userName = "usmuser";
+            String password = "usmuser";
+            connection = DriverManager.getConnection(oracleURL, userName, password);
+
+            String query = "SELECT EMP_FNAME, EMP_NAME, EMP_CUR_STATUS, EMP_SEX FROM HR_EMPLOYEE";
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+
+    %>
